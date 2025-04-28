@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Service</title>
+    <link rel="stylesheet" href="applyService.css">
+</head>
+<body>
+    <div class="service-container">
+        <h2>Apply for Service</h2>
+        <form action="" method="POST">
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" placeholder="Enter your phone number" name="contact" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter your location" name="location" required>
+
+            <label for="service">Type of Service:</label>
+             <select name="Services" id="service">
+                <option value="service"></option>
+                <option value="service">Automation Solution</option>
+                <option value="service">Conveyor Installation</option>
+                <option value="service">HMI Installation</option>
+                <option value="service">CNC Drilling Machine</option>
+                <option value="service">CNC Repairing</option>
+                <option value="service">Complete Weighing Solution</option>
+                <option value="service">CCTV Solution</option>
+                <option value="service">AC Compressor & Coolant</option>
+                <option value="service">Computer Services</option>
+                <option value="service">Printer Repair & Refilling</option>
+             </select>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="3"></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</body>
+</html>
