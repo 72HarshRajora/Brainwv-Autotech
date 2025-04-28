@@ -25,7 +25,8 @@ Brainwv Autotech is a forward-thinking startup in the automotive technology spac
 ## 📁 Tech Stack
 
 - **Frontend**: HTML5, CSS3
-- **No JavaScript used**
+- **Hover Animations**
+- **VS Code Editor**
 
 ## 📸 Sneak Peek
 
