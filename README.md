@@ -4,7 +4,7 @@
 [![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red?style=for-the-badge)](#)
 
 Welcome to the official repository for the **Brainwv Autotech** website!  
-I handled the **complete frontend development** of this project, focusing on creating a **fully responsive** and **user-friendly** design using **HTML** and **CSS** — without any JavaScript.
+I handled the **complete frontend development** of this project, focusing on creating a **fully responsive** and **user-friendly** design using **HTML** and **CSS**.
 
 ## 🚀 About Brainwv Autotech
 
