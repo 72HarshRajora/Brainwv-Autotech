@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Join Us</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        /* .feedback-col {
+            max-width: 300px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        } */
+
+        :root {
+            --heading-font: "Dangrek", serif;
+            --para-font: "Poppins", serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: var(--heading-font);
+            background: radial-gradient(28% 32% at 50% 0%, rgb(255, 131, 0) 52%, rgb(255, 51, 0) 85%, rgb(0, 0, 0) 102%), black;
+            min-height: 100vh;
+            background-repeat: no-repeat;
+            color: white;
+        }
+
+        @media only screen and (max-width: 830px) {
+            body {
+                background: radial-gradient(38% 20% at 50% 0%, rgb(255, 131, 0) 52%, rgb(255, 51, 0) 85%, rgb(0, 0, 0) 102%), black;
+                background-repeat: no-repeat;
+            }
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            width: 96vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: 1394px) {
+            .table-wrapper {
+                justify-content: flex-start;
+            }
+        }
+
+        table {
+            min-width: 1000px;
+            border: 10px solid rgb(50, 50, 50);
+            border-radius: 8px;
+            table-layout: auto;
+        }
+
+        h2 {
+            font-family: var(--heading-font);
+            text-align: center;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        thead {
+            background: linear-gradient(145deg, #ff3400 28%, #ff8300 62%);
+        }
+
+        tr th {
+            padding: 4px;
+            min-width: 186px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        tbody tr td {
+            padding: 4px;
+            background-color: rgb(12, 12, 12);
+            opacity: 0.7;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 700px) {
+            h2 {
+                font-size: 24px;
+                font-weight: 400;
+            }
+
+            table {
+                border: 6px solid rgb(50, 50, 50);
+                border-radius: 4px;
+            }
+
+            tr th {
+                padding: 2px;
+                min-width: auto;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Join Us - Admin View</h2>
+        <div class="table-wrapper">
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Contact</th>
+                        <th class="project-col">Project</th>
+                        <th>Resume</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>23233</td>
+                        <td>Harsh Rajora</td>
+                        <td>72harshrajora@gmail.com</td>
+                        <td>8595076339</td>
+                        <td>Project.ppt</td>
+                        <td>Resume.pdf</td>
+                        <td>Delete</td>
+                    </tr>
+                    <tr>
+                        <td>23234</td>
+                        <td>Kishan Kr.</td>
+                        <td>kishankr@gmail.com</td>
+                        <td>7627582957</td>
+                        <td>Project.ppt</td>
+                        <td>Resume.pdf</td>
+                        <td>Delete</td>
+                    </tr>
+                    <tr>
+                        <td>23235</td>
+                        <td>Gaurav Singh</td>
+                        <td>gauravsingh@gmail.com</td>
+                        <td>9365828563</td>
+                        <td>Project.ppt</td>
+                        <td>Resume.pdf</td>
+                        <td>Delete</td>
+                    </tr>
+                    <tr>
+                        <td>23236</td>
+                        <td>Harsh Rajora</td>
+                        <td>72harshrajora@gmail.com</td>
+                        <td>8595076339</td>
+                        <td>Project.ppt</td>
+                        <td>Resume.pdf</td>
+                        <td>Delete</td>
+                    </tr>
+                    <tr>
+                        <td>23237</td>
+                        <td>Kishan Kr.</td>
+                        <td>kishankr@gmail.com</td>
+                        <td>7627582957</td>
+                        <td>Project.ppt</td>
+                        <td>Resume.pdf</td>
+                        <td>Delete</td>
+                    </tr>
+                    <tr>
+                        <td>23238</td>
+                        <td>Gaurav Singh</td>
+                        <td>gauravsingh@gmail.com</td>
+                        <td>9365828563</td>
+                        <td>Project.ppt</td>
+                        <td>Resume.pdf</td>
+                        <td>Delete</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
